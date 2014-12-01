@@ -1,0 +1,71 @@
+Feedback:
+
+
+(1) Antivirus - Unless I'm mistaken, Dekekt is specifically designed to
+detect only a few specific pieces of malware, and that folks who are
+less technically familiar with virii should use something in addition.
+Winodws Security Essentials for Windows is free and about as adequate
+as any other paid service.
+
+(2) Truecrypt/Ciphersecure is not an Operating System
+
+(3) Recommending CACert is disingenuous as it is not in any trust stores,
+so you'll get certificate errors.  Let's Encrypt is not available yet.
+Just about any CA is equivaltnt o any other - at the level of people
+who don't know what a 'CA' is, they compete on price, not features.
+
+(4) Onionshare does not do cloud backup
+
+(5) 
+
+add Peersm [1], [2]
+
+This is not "only" a js Tor bittorrent inside browsers for streaming/download, people can exchange whatever content and encrypt it personnaly on top of the Tor protocol encryption.
+
+Prism-break did not include it because the code is not open source for now (see discussion [3]) and under a modified MIT license (following discussion [3]), despite of the fact it is visible on github [4] and can not be hidden (js inside browsers), so perfectly auditable once deminified
+
+Working and usable/used (not by tons of people currently, but used) here: http://peersm.com/peersm
+
+[1] http://www.peersm.com
+[2] https://github.com/Ayms/node-Tor#anonymous-serverless-p2p-inside-browsers---peersm-specs
+[3] https://github.com/nylira/prism-break/issues/883
+[4] https://github.com/Ayms/node-Tor/tree/master/install and https://github.com/Ayms/node-Tor/tree/master/min
+
+--
+(6)
+
+thank you for making this list.
+
+I think the notion of "free/paid" is not only useless, but nocive.  It
+does not matter whether the system is available at a fee or not.  What
+matters is that the source code is available for review or not.
+
+Another important matter is whether the system is proprietary or free
+software: in the former case, users are totally dependent on the trust
+of the proprietor of the software, and unable to detect or correct any
+flaws they might discover, nor to adapt the software to their own
+specific needs, nor to share that software, modified or not, with other
+people who might need it--including security fixes, and including for a fee.
+
+Therefore, I would change this column to "Gratis/Paid" to avoid any
+confusion, and move it to the end.  In its place I would indicate
+whether it's free software (guarantees the four freedoms describes in
+the previous paragraph), open source (code is reviewable by the users
+and independent parties), or proprietary (code is not available, or only
+under NDA).
+
+In a post-Snowden world, not taking this into account amounts to fraud.
+
+Note that software freedom does not apply to services[0].
+
+The Android system uses Linux as its kernel, so it is improper to say
+"Android" and "Linux": you should use "Android" and "GNU/Linux" instead
+to differenciate the two[1].
+
+Finally, I think you may contribute this (corrected) information to the
+Prism-Break project[2].  If you license it under free terms, then other
+people would be able to include it in their own derivative works.
+
+
+
+
