@@ -66,6 +66,10 @@ Finally, I think you may contribute this (corrected) information to the
 Prism-Break project[2].  If you license it under free terms, then other
 people would be able to include it in their own derivative works.
 
+(7)
+
+Suggest adding LastPass to this list. It was vetted by Steve Gibson. http://blog.lastpass.com/2010/07/lastpass-gets-green-light-from-security.html
+
 
 
 
